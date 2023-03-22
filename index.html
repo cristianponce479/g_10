@@ -5,19 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Inicio</title>
 </head>
 
 <body>
 
-    <div style="width: 800px; margin: 10px auto;">
+    <div style="width: 1050px; margin: 10px auto;">
 
         <header>
             <h1 style="text-align: center;">Apple.com</h1>
             <p style="text-align: center;">Productos top</p>
         </header>
         <main>
-            <div>
+            <div id="div_temas">
                 <h4>Temas</h4>
                 <ul>
                     <li>
@@ -31,43 +32,93 @@
             <table>
                 <tr> <!-- tr: Crea una fila en la tabla -->
                     <td> <!-- td: crea una celda en la fila de la tabla-->
-                        <div style="border: 2px solid #ccc; border-radius: 10px; padding: 10px;">
+                        <div class="product_cell celular">
                             <h2>iPhone 13</h2>
+                            <h3 class="price">2585</h3>
                             <img width="200px"
                                 src="https://equiposlibres.pe/wp-content/uploads/2021/09/iphone-13-pro-max-blue-r.png"
-                                alt="">
+                                alt="Foto de iPhone 13 Color silver">
                         </div>
                     </td>
                     <td>
-                        <div style="border: 2px solid #ccc; border-radius: 10px; padding: 10px;">
+                        <div class="product_cell laptop">
                             <h2>Macbook Pro</h2>
+                            <h3 class="price">5987</h3>
                             <img width="200px"
                                 src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HA244?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1670455592623"
                                 alt="">
                         </div>
                     </td>
                     <td>
-                        <div style="border: 2px solid #ccc; border-radius: 10px; padding: 10px;">
+                        <div class="product_cell audifono">
                             <h2>Airpods Pro</h2>
+                            <h3>$ 456</h3>
                             <img width="200px"
                                 src="https://tiendasishop.com/media/catalog/product/f/o/fotos_airpods_pro_1000x1000_1_1.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
                                 alt="">
                         </div>
                     </td>
                     <td>
-                        <div style="border: 2px solid #ccc; border-radius: 10px; padding: 10px;">
+                        <div class="product_cell tablet">
                             <h2>iPad Air</h2>
+                            <h3>$ 359</h3>
                             <img width="200px"
                                 src="https://peru.solutekla.com/photo/1/apple/ipad/ipad_pro_de_129_pulgadas_y_256_gb_con_wifi_cellular_gris_espacial/ipad_pro_de_129_pulgadas_y_256_gb_con_wifi_cellular_gris_espacial_0001"
                                 alt="">
                         </div>
                     </td>
                 </tr>
+                <tr> <!-- tr: Crea una fila en la tabla -->
+                    <td> <!-- td: crea una celda en la fila de la tabla-->
+                        <div class="product_cell celular">
+                            <h2>iPhone 14</h2>
+                            <h3>$ 7895</h3>
+                            <img width="200px"
+                                src="https://claroperupoc.vtexassets.com/arquivos/ids/408220/iphone14-pro-space-black-1.png?v=638018148385500000"
+                                alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="product_cell laptop">
+                            <h2>Macbook Air</h2>
+                            <h3>$ 999</h3>
+                            <img width="200px"
+                                src="https://ripleype.imgix.net/https%3A%2F%2Fdpq25p1ucac70.cloudfront.net%2Fseller-place-files%2Fmrkl-files%2F2801%2FMARKETPLACE%20INTERNACIONAL%2F2DA%20SUBIDA%2FLAPTOPS%20APPLE%2FMCBAIRM1SV81T%2FMCBAIRM1SV81T%201.jpg?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=ab222f3e20ff4518a8065d9e87b05508"
+                                alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="product_cell audifono">
+                            <h2>Airpods Max</h2>
+                            <h3>$ 4698</h3>
+                            <img width="200px"
+                                src="https://cdn.shopify.com/s/files/1/0568/4697/5035/products/IMG-5245667_1445x.jpg?v=1660915966"
+                                alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="product_cell tablet">
+                            <h2>iPad Pro</h2>
+                            <h3>$ 6648</h3>
+                            <img width="200px"
+                                src="https://http2.mlstatic.com/D_NQ_NP_945307-MLA48558189714_122021-O.jpg" alt="">
+                        </div>
+                    </td>
+                </tr>
             </table>
+            <section>
+                <h2>Contacto</h2>
+                <div class="div_form">
+                    <form action="#">
+                        <input type="text" name="" id="">
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
 
         </main>
         <footer>
-            <p style="text-align: center;">Hecho por Cristian Ponce</p>
+            <p style="text-align: center;">Cristian PONCE</p>
         </footer>
     </div>
 
