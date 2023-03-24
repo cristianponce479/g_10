@@ -9,28 +9,100 @@ body {
 }
 
 .container {
-    width: 340px;
-    height: 600px;
-    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
 
 .sub-container {
-    width: 320px;
-    height: 590px;
+    width: 310px;
+    height: 520px;
     margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.content {
+    margin-top: 10px;
+    font-family: "outfit"
 }
 
 .image {
+
     background: url(../images2/image-equilibrium.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 300px;
-    width: 300px;
-    border-top-left-radius: 8px;
+    height: 270px;
+    width: 270px;
+    border-radius: 8px;
 
 }
-.avatar{
-    border-color: #fff;
-    width: 40px;
-    height: 40px;
+
+.title {
+    color: hsl(0, 0%, 100%);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.text {
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 15px;
+    font-weight: 50;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.direc {
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:9px;
+
+}
+
+.dat {
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+.text-desing{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 0.1px solid hsl(215, 51%, 70%);
+}
+.name{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+   gap: 9px;
+}
+
+.avatar {
+    border: 0.5px solid hsl(215, 51%, 70%);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
 }
