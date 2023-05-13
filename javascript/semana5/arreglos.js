@@ -34,7 +34,7 @@ const cursos = [
 
 console.log(cursos[1][3][3][1]);
 
-cursos.unshift("React Native");
+cursos.unshift("React Native"); //agrega elementos al inicio del arreglo
 console.log("unshift", cursos);
 cursos[1].unshift("Nextjs");
 console.log("adsadsa", cursos);
